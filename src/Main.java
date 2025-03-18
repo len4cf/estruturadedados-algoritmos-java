@@ -1,21 +1,18 @@
 import estrutura_dados_vetor.Vetor;
+import estrutura_dados_vetor.VetorObjetos;
 
 public class Main {
     public static void main(String[] args) {
 
-        Vetor vetor = new Vetor(5);
+        VetorObjetos vetor = new VetorObjetos(3);
 
-        vetor.adiciona("B");
-        vetor.adiciona("C");
-        vetor.adiciona("E");
-        vetor.adiciona("F");
-        vetor.adiciona("G");
-        vetor.adiciona("H");
+        vetor.adiciona(3);
+        vetor.adiciona(2);
+        vetor.adiciona(1);
+
+        System.out.println("Tamanho = " + vetor.tamanho());
 
         System.out.println(vetor);
-
-
-
 
 
     }
