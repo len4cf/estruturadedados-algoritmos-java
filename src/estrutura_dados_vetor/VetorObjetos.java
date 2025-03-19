@@ -73,6 +73,7 @@ public class VetorObjetos {
         this.tamanho--;
     }
 
+
     public int tamanho() {
         return this.tamanho;
     }
